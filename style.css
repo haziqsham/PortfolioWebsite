@@ -53,6 +53,11 @@ a:hover{
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
 }
+.logo1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
 
 .logo{
     font-size: 2rem;
@@ -60,8 +65,12 @@ a:hover{
     color: rgb(0, 0, 0);
 }
 
-.logo:hover{
+.logo1:hover{
     cursor: default;
+}
+
+.logo:hover{
+  cursor: default;
 }
 
 /*burger*/
@@ -92,7 +101,6 @@ a:hover{
 }
 
 .menu-links{
-  display: none;
     display:list-item;
     position: absolute;
     top: 100%;
